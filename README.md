@@ -1,136 +1,122 @@
-🍽️ Servd — An AI Recipe Platform
-Built with Next.js, Tailwind CSS, Strapi, Neon DB, Shadcn UI, Clerk, and Arcjet
+
+# 🍽️ Servd AI — Full Stack AI Recipe Platform
+
+**Full Stack React Project (AI Recipe Platform)**  
+Built with **Next.js, Tailwind CSS, Strapi, Neon DB, Shadcn UI, Clerk, and Arcjet**
 
 Servd AI is a modern, full stack AI-powered recipe and pantry management platform that helps users discover recipes, manage pantry items, and cook smarter using artificial intelligence. The platform integrates secure authentication, scalable database, and production-grade security.
 
-🌐 Live Preview
+---
 
-🚀 Live Demo:
-👉 Add your deployed link here (Vercel / Netlify)
+## 🌐 Live Preview
 
+🚀 **Live Demo:**  
+👉 _Add your deployed link here (Vercel / Netlify)_  
+
+```
 https://your-live-demo-link.vercel.app
+```
 
-📸 Screenshots
+---
 
-Add screenshots here for better presentation.
+## 📸 Screenshots
 
-Create a folder named screenshots/ in your project root and add images like:
+_Add screenshots here for better presentation._
 
+Create a folder named `screenshots/` in your project root and add images like:
+
+```
 screenshots/
   ├── home.png
   ├── pantry.png
   ├── ai-recipe.png
   ├── saved-recipes.png
   └── auth.png
-
+```
 
 Then reference them like this in README:
 
+```
 ![Home Page](./screenshots/home.png)
 ![Pantry Dashboard](./screenshots/pantry.png)
 ![AI Recipe Generator](./screenshots/ai-recipe.png)
 ![Saved Recipes](./screenshots/saved-recipes.png)
 ![Authentication](./screenshots/auth.png)
+```
 
-🚀 Features
-🤖 AI-Powered Recipes
+---
 
-AI-based recipe generation
+## 🚀 Features
 
-Recipe suggestions based on pantry ingredients
+### 🤖 AI-Powered Recipes
+- AI-based recipe generation
+- Recipe suggestions based on pantry ingredients
+- Smart ingredient substitutions
+- Personalized cooking recommendations
 
-Smart ingredient substitutions
+### 🧺 Pantry Management
+- Add, update, and delete pantry items
+- Track ingredient availability
+- Smart usage suggestions
+- Reduce food waste with AI insights
 
-Personalized cooking recommendations
+### 📌 Recipe Management
+- Save and bookmark favorite recipes
+- Search and filter recipes
+- View detailed cooking instructions
+- Categorized recipe browsing
 
-🧺 Pantry Management
+### 🔐 Authentication (Clerk)
+- Secure authentication using **Clerk**
+- Email / social login support
+- Protected routes and user sessions
+- User-specific pantry and saved recipes
 
-Add, update, and delete pantry items
+### 🛡️ Security (Arcjet)
+- Bot protection
+- Rate limiting
+- Request shielding
+- Production-grade API security
 
-Track ingredient availability
+### 🎨 Modern UI/UX
+- Responsive design
+- Tailwind CSS + Shadcn UI components
+- Smooth animations & loading states
+- Mobile-friendly layout
 
-Smart usage suggestions
+---
 
-Reduce food waste with AI insights
+## 🛠️ Tech Stack
 
-📌 Recipe Management
+### Frontend
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- Shadcn UI
+- Lucide Icons
 
-Save and bookmark favorite recipes
+### Backend & CMS
+- Strapi (Headless CMS)
+- Next.js Server Actions
+- REST / API Integration
 
-Search and filter recipes
+### Database
+- Neon DB (PostgreSQL)
 
-View detailed cooking instructions
+### Authentication
+- Clerk
 
-Categorized recipe browsing
+### Security
+- Arcjet
 
-🔐 Authentication (Clerk)
+### AI
+- AI / LLM-based recipe generation
 
-Secure authentication using Clerk
+---
 
-Email / social login support
+## 📁 Project Structure
 
-Protected routes and user sessions
-
-User-specific pantry and saved recipes
-
-🛡️ Security (Arcjet)
-
-Bot protection
-
-Rate limiting
-
-Request shielding
-
-Production-grade API security
-
-🎨 Modern UI/UX
-
-Responsive design
-
-Tailwind CSS + Shadcn UI components
-
-Smooth animations & loading states
-
-Mobile-friendly layout
-
-🛠️ Tech Stack
-Frontend
-
-Next.js (App Router)
-
-React
-
-Tailwind CSS
-
-Shadcn UI
-
-Lucide Icons
-
-Backend & CMS
-
-Strapi (Headless CMS)
-
-Next.js Server Actions
-
-REST / API Integration
-
-Database
-
-Neon DB (PostgreSQL)
-
-Authentication
-
-Clerk
-
-Security
-
-Arcjet
-
-AI
-
-AI / LLM-based recipe generation
-
-📁 Project Structure
+```
 Servd-AI_Recipe_Platform/
 ├── app/                # Next.js App Router
 ├── components/         # Reusable UI components
@@ -142,19 +128,30 @@ Servd-AI_Recipe_Platform/
 ├── styles/             # Global styles
 ├── .env.example        # Environment variables template
 └── README.md
+```
 
-⚙️ Getting Started
-1️⃣ Clone the Repository
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/devansh934/Servd-AI_Recipe_Platform.git
 cd Servd-AI_Recipe_Platform
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
-3️⃣ Environment Variables
+### 3️⃣ Environment Variables
 
-Create a .env.local file:
+Create a `.env.local` file:
 
+```env
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 # Strapi
@@ -173,70 +170,77 @@ ARCJET_KEY=your_arcjet_key
 
 # AI
 OPENAI_API_KEY=your_openai_api_key
+```
 
-4️⃣ Run the App
+---
+
+### 4️⃣ Run the App
+
+```bash
 npm run dev
-
+```
 
 Open: http://localhost:3000
 
-🧪 Scripts
+---
+
+## 🧪 Scripts
+
+```bash
 npm run dev       # Start development server
 npm run build     # Build for production
 npm run start     # Start production server
 npm run lint      # Run ESLint
+```
 
-🎯 Resume / Portfolio Highlights
+---
 
-Built a full stack AI-powered recipe platform using Next.js and Strapi
+## 🎯 Resume / Portfolio Highlights
 
-Integrated Neon PostgreSQL for scalable cloud database
+- Built a full stack AI-powered recipe platform using Next.js and Strapi
+- Integrated Neon PostgreSQL for scalable cloud database
+- Implemented secure authentication with Clerk
+- Added production-grade security using Arcjet
+- Designed modern UI with Tailwind CSS and Shadcn UI
+- Developed AI-powered recipe generation and pantry intelligence
+- Implemented user-specific saved recipes and pantry management
 
-Implemented secure authentication with Clerk
+---
 
-Added production-grade security using Arcjet
-
-Designed modern UI with Tailwind CSS and Shadcn UI
-
-Developed AI-powered recipe generation and pantry intelligence
-
-Implemented user-specific saved recipes and pantry management
-
-🚀 Deployment
+## 🚀 Deployment
 
 Recommended deployment setup:
 
-Frontend: Vercel
+- **Frontend:** Vercel  
+- **Backend CMS:** Strapi Cloud / Render / Railway  
+- **Database:** Neon DB  
+- **Auth:** Clerk  
+- **Security:** Arcjet  
 
-Backend CMS: Strapi Cloud / Render / Railway
+---
 
-Database: Neon DB
-
-Auth: Clerk
-
-Security: Arcjet
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Open a Pull Request  
 
-Create a new branch
+---
 
-Commit your changes
-
-Open a Pull Request
-
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-👨‍💻 Author
+---
 
-Devansh Patel
-GitHub: https://github.com/devansh934
+## 👨‍💻 Author
+
+**Devansh Patel**  
+GitHub: https://github.com/devansh934  
+
+---
 
 ⭐ If you like this project, don’t forget to give it a star!
-
-If you want, I can now:
