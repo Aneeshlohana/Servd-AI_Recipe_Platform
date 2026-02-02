@@ -25,14 +25,13 @@ export default function SavedRecipesPage() {
     <div className="min-h-screen bg-stone-50 pt-24 pb-16 px-4">
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
-        <div className="flex items-start gap-4 mb-10">
-          <Bookmark className="w-12 h-12 text-orange-600 shrink-0" />
-
+        <div className="flex items-center gap-1 mb-8">
+          <Bookmark className="w-25 h-25 text-orange-600 " />
           <div>
             <h1 className="text-4xl md:text-6xl font-bold text-stone-900 tracking-tight leading-tight">
               My Saved Recipes
             </h1>
-            <p className="text-stone-600 mt-2">
+            <p className="text-stone-600">
               Your personal collection of favorite recipes
             </p>
           </div>
@@ -65,16 +64,13 @@ export default function SavedRecipesPage() {
             <div className="bg-orange-50 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
               <Bookmark className="w-10 h-10 text-orange-600" />
             </div>
-
             <h3 className="text-2xl font-bold text-stone-900 mb-2">
               No Saved Recipes Yet
             </h3>
-
             <p className="text-stone-600 mb-8 max-w-md mx-auto">
               Start exploring recipes and save your favorites to build your
               personal cookbook!
             </p>
-
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/dashboard">
                 <Button className="bg-orange-600 hover:bg-orange-700 text-white gap-2">
@@ -82,7 +78,6 @@ export default function SavedRecipesPage() {
                   Explore Recipes
                 </Button>
               </Link>
-
               <Link href="/pantry">
                 <Button variant="outline" className="border-stone-300 gap-2">
                   Check Your Pantry
