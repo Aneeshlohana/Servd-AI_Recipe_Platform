@@ -106,7 +106,7 @@ Then reference them like this in README:
 - Arcjet
 
 ### AI
-- AI / LLM-based recipe generation
+- Gemini AI
 
 ---
 
@@ -160,12 +160,19 @@ DATABASE_URL=your_neon_database_url
 # Clerk
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
 
 # Arcjet
 ARCJET_KEY=your_arcjet_key
 
 # AI
-OPENAI_API_KEY=your_openai_api_key
+GEMINI_API_KEY=your_gemini_api_key
+
+# Unsplash Key
+UNSPLASH_ACCESS_KEY=your_unsplash_api_key
+
 ```
 
 ---
