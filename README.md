@@ -208,7 +208,7 @@ npm run lint      # Run ESLint
 Recommended deployment setup:
 
 - **Frontend:** Vercel  
-- **Backend CMS:** Strapi Cloud / Render / Railway  
+- **Backend CMS:** Strapi Cloud  
 - **Database:** Neon DB  
 - **Auth:** Clerk  
 - **Security:** Arcjet  
