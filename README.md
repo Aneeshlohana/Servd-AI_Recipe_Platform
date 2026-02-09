@@ -2,7 +2,7 @@
 # 🍽️ Servd — An AI Recipe Platform
 
 **Full Stack React Project (An AI Recipe Platform)**  
-Built with **Next.js, Tailwind CSS, Strapi, Neon DB, Shadcn UI, Clerk, and Arcjet**
+(Built with **Next.js, Tailwind CSS, Strapi, Neon DB, Shadcn UI, Clerk, and Arcjet**)
 
 Servd  is a modern, full stack AI-powered recipe and pantry management platform that helps users discover recipes, manage pantry items, and cook smarter using artificial intelligence. The platform integrates secure authentication, scalable database, and production-grade security.
 
