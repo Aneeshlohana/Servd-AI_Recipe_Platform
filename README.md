@@ -23,7 +23,6 @@ Servd  is a modern, full stack AI-powered recipe and pantry management platform 
 
 
 
-
 ---
 
 ## 🚀 Features
